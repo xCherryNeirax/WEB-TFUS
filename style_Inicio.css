@@ -1,42 +1,47 @@
 @font-face {
 	font-family: 'Carelia';
-	src: url("imagenes-fuentes/Carelia.ttf") format('truetype');
-}
+	src: url("imagenes-fuentes/Carelia.ttf") format('truetype');}
 @font-face {
 	font-family: 'LeckerliOne';
-	src: url("imagenes-fuentes/LeckerliOne.ttf") format('truetype');
-}
+	src: url("imagenes-fuentes/LeckerliOne.ttf") format('truetype');}
 @font-face {
 	font-family: 'Circe';
-	src: url("imagenes-fuentes/Circe.otf") format('opentype');
-}
-html {
-	background-color: #6e1217;
-	padding: 0;
-	width: 1875px;
-}
+	src: url("imagenes-fuentes/Circe.otf") format('opentype');}
 body {
-	width:1875px;
-	margin: 0 auto;
+	margin:0;
+	width:auto;
+	background-color: #6e1217;
+	background-image: url("imagenes-fuentes/Patron_Azulejo_Fondo.png");
+	background-size: 80px 80px;
 }
 
 header {
-	background-color: #f4deca;
-	border-radius: 5px;
-	width: 90%;
-	text-align: center;
-	color: #801414;
-	line-height: 1.3em;
-	font-size: 17px;
-	text-shadow: 1px 1px 0 #c4a697;
-	border-bottom: 1px solid #620505;
-	margin: 0 auto;
+	position: fixed;
+	top:0;
+	z-index:1;
+	width: 100%;
+	margin: 0px;
+	background-image: url("imagenes-fuentes/Patron_Azulejo_Header.png");
+	display:block;
+	background-size: 70px 77px;
+	background-repeat: repeat-x;
 	/* CSS3 gradient layer (http://gradients.glrzad.com/)*/
 }
+
 header h1{
-	padding:25px 0 25px;
+	padding:5px 0 5px;
 	margin:0; 
 	font-family: Carelia;
+	background-color: #f4deca;
+	border-radius: 4px;
+	width: 50%;
+	text-align: center;
+	color: #801414;
+	font-size: 24px;
+	text-decoration:underline;
+	text-shadow: 1px 1px 5px #bc9a9a;
+	border: 5px solid #620505;
+	margin: 0 auto;
 }
 
 article.Definicion {
@@ -44,58 +49,57 @@ article.Definicion {
 	position: relative;
 	left: 5%;
 	float: left;
+	top:20px;
 	background-color: #f4deca;
+	margin-top:60px;
 	padding: 30px;
-	margin: 5px auto;
+	/*margin: 5px auto;*/
 	width: 70%;
 	text-align: justify;
 	border-bottom: 1px solid #c4a697;
+	border-radius: 4px;
+}
+article.Definicion h2{
+	font-family: Carelia;
+	text-align: center;
+	text-decoration:underline;
 }
 article.Historia {
 	color: #620505;
 	position: relative;
 	float: left;
 	left: 5%;
+	top:20px;
 	background-color: #f4deca;
 	padding: 30px;
 	margin: 5px auto;
 	width: 70%;
 	text-align: justify;
 	border-bottom: 1px solid #c4a697;
+	border-radius: 4px;
 }
 aside {
 	width: 15%;
-	position: relative;
-	float: right;
+	position: fixed;
+	top: 70px;
 	right:5%;
 	margin: 10px;
-	border-left: 1px solid #ebebeb;
-	background-color: #F7F6F6;
+	border-left: 1px solid #c4a697;
+	background-color: #f4deca;
+	border-radius: 4px;
 }
 aside nav, aside section{
 	padding:20px 30px 20px 30px;	
 }
 footer {
-	clear: both;
-	padding: 2px;
+	position: fixed;
+	width:100%;	
+	bottom: 1px;
+	padding: 0.5px;
 	background-color: #f4deca;
 	text-align: center;
 	color: #801414;
-	font-size: 15px;
+	font-size: 12px;
 	text-shadow: 1px 1px 0 #c4a697;
 	border-top: 1px solid #620505;
-}
-
-section{
-	padding:20px 0;
-}
-
-ul{
-	padding-left:20px;
-}
-ul li{
-	margin:10px 0;
-}
-a{
-	color:#747474;
 }
