@@ -79,6 +79,24 @@ article.Historia {
 	border-bottom: 1px solid #c4a697;
 	border-radius: 4px;
 }
+.Circulo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(0%, 0%);
+}
+#Interno{
+	fill: hsl(0, 100%, 14%);
+	opacity: 75%;
+}
+#Medio{
+	fill: hsl(0, 100%, 14%);
+	opacity: 50%;
+}
+#Exterior{
+	fill: hsl(0, 100%, 14%);
+	opacity: 25%;
+}
 aside {
 	width: 15%;
 	position: fixed;

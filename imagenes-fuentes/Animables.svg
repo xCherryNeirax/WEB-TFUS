@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="440" height="237" viewBox="0 0 440 237" fill="none" id="animables" xmlns="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="Circulo">
+    <path
+       id="Exterior"
+       d="m 137.60422,205.61994 c 49.22987,0 89.13841,-39.90853 89.13841,-89.1384 0,-49.229789 -39.90854,-89.138402 -89.13841,-89.138402 -49.229785,0 -89.138398,39.908613 -89.138398,89.138402 0,49.22987 39.908613,89.1384 89.138398,89.1384 z"
+       fill="#000000"
+       style="stroke-width:0.771761" />
+    <path
+       id="Medio"
+       d="m 137.60422,193.27176 c 42.40982,0 76.79023,-34.38041 76.79023,-76.79022 0,-42.410045 -34.38041,-76.790225 -76.79023,-76.790225 -42.410041,0 -76.790221,34.38018 -76.790221,76.790225 0,42.40981 34.38018,76.79022 76.790221,76.79022 z"
+       fill="#000000"
+       style="stroke-width:0.771761" />
+    <path
+       id="Interno"
+       d="m 137.60422,177.06478 c 33.45893,0 60.58325,-27.12431 60.58325,-60.58324 0,-33.459238 -27.12432,-60.583243 -60.58325,-60.583243 -33.45923,0 -60.583239,27.124005 -60.583239,60.583243 0,33.45893 27.124009,60.58324 60.583239,60.58324 z"
+       fill="#000000"
+       style="stroke-width:0.771761" />
+    <text
+       xml:space="preserve"
+       style="font-size:77.3945px;line-height:0.8;font-family:'IFC RAILROAD';-inkscape-font-specification:'IFC RAILROAD, Normal';text-align:end;text-decoration-color:#000000;letter-spacing:6.44957px;writing-mode:lr-tb;direction:ltr;text-anchor:end;display:inline;fill:#e68225;fill-opacity:1;stroke:#ffc28a;stroke-width:6.19158;stroke-linecap:round;stroke-miterlimit:79.4;stroke-opacity:1;paint-order:stroke fill markers"
+       x="235.5143"
+       y="141.66367"
+       id="text2014"
+       inkscape:label="2014"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="241.96387"
+         y="141.66367"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.3945px;font-family:Carelia;-inkscape-font-specification:'Carelia, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e68225;fill-opacity:1;stroke:#ffc28a;stroke-width:6.19158;stroke-opacity:1">2014</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:77.3945px;line-height:0.8;font-family:'IFC RAILROAD';-inkscape-font-specification:'IFC RAILROAD, Normal';text-align:end;text-decoration-color:#000000;letter-spacing:6.44957px;writing-mode:lr-tb;direction:ltr;text-anchor:end;display:inline;fill:#620505;fill-opacity:1;stroke:#bb4040;stroke-width:6.19158;stroke-linecap:round;stroke-miterlimit:79.4;stroke-opacity:1;paint-order:stroke fill markers"
+       x="233.89594"
+       y="141.62889"
+       id="text2015"
+       inkscape:label="2015"><tspan
+         sodipodi:role="line"
+         id="tspan1-2"
+         x="240.3455"
+         y="141.62889"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.3945px;font-family:Carelia;-inkscape-font-specification:'Carelia, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#620505;fill-opacity:1;stroke:#bb4040;stroke-width:6.19158;stroke-opacity:1">2015</tspan></text>
+  </g>
+  <g
+     id="Pie"
+     transform="matrix(0.77176106,0,0,0.77176106,48.465822,26.957257)">
+    <path
+       id="Paso"
+       d="m 358.655,122.72 c -6,-24.5004 -58.5,-132.00043 15.5,-121.50047 74,10.49997 64.5,100.84147 64.5,121.50047 0,87 -8,113 -35,113 -35.02,0 -39,-88.5 -45,-113 z"
+       fill="#000000"
+       stroke="#000000" />
+  </g>
+</svg>
