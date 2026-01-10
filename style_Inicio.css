@@ -42,7 +42,6 @@ header h1{
 	border: 5px solid #620505;
 	margin: 0 auto;
 }
-
 article.Definicion { 
 	color: #620505;
 	position: relative;
@@ -131,4 +130,18 @@ a{
 }
 a:hover{
 	color:#e68225;
+}
+.loader-container{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+}
+.loader-container .loader-fixed{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	border: solid 4px black;
 }
