@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="440" height="237" viewBox="0 0 440 237" fill="none" id="animables" xmlns="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
+<svg width="440" height="237" viewBox="0 0 440 237" fill="none" id="animables" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <g
      id="Circulo">
     <path
@@ -19,31 +16,31 @@
        d="m 137.60422,177.06478 c 33.45893,0 60.58325,-27.12431 60.58325,-60.58324 0,-33.459238 -27.12432,-60.583243 -60.58325,-60.583243 -33.45923,0 -60.583239,27.124005 -60.583239,60.583243 0,33.45893 27.124009,60.58324 60.583239,60.58324 z"
        fill="#000000"
        style="stroke-width:0.771761" />
-    <text
-       xml:space="preserve"
-       style="font-size:77.3945px;line-height:0.8;font-family:'IFC RAILROAD';-inkscape-font-specification:'IFC RAILROAD, Normal';text-align:end;text-decoration-color:#000000;letter-spacing:6.44957px;writing-mode:lr-tb;direction:ltr;text-anchor:end;display:inline;fill:#e68225;fill-opacity:1;stroke:#ffc28a;stroke-width:6.19158;stroke-linecap:round;stroke-miterlimit:79.4;stroke-opacity:1;paint-order:stroke fill markers"
-       x="235.5143"
-       y="141.66367"
-       id="text2014"
-       inkscape:label="2014"><tspan
-         sodipodi:role="line"
-         id="tspan1"
-         x="241.96387"
-         y="141.66367"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.3945px;font-family:Carelia;-inkscape-font-specification:'Carelia, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e68225;fill-opacity:1;stroke:#ffc28a;stroke-width:6.19158;stroke-opacity:1">2014</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:77.3945px;line-height:0.8;font-family:'IFC RAILROAD';-inkscape-font-specification:'IFC RAILROAD, Normal';text-align:end;text-decoration-color:#000000;letter-spacing:6.44957px;writing-mode:lr-tb;direction:ltr;text-anchor:end;display:inline;fill:#620505;fill-opacity:1;stroke:#bb4040;stroke-width:6.19158;stroke-linecap:round;stroke-miterlimit:79.4;stroke-opacity:1;paint-order:stroke fill markers"
-       x="233.89594"
-       y="141.62889"
-       id="text2015"
-       inkscape:label="2015"><tspan
-         sodipodi:role="line"
-         id="tspan1-2"
-         x="240.3455"
-         y="141.62889"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.3945px;font-family:Carelia;-inkscape-font-specification:'Carelia, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#620505;fill-opacity:1;stroke:#bb4040;stroke-width:6.19158;stroke-opacity:1">2015</tspan></text>
   </g>
+  <text
+     xml:space="preserve"
+     style="font-size:77.3945px;line-height:0.8;font-family:'IFC RAILROAD';-inkscape-font-specification:'IFC RAILROAD, Normal';text-align:end;text-decoration-color:#000000;letter-spacing:6.44957px;writing-mode:lr-tb;direction:ltr;text-anchor:end;display:inline;fill:#e68225;fill-opacity:1;stroke:#ffc28a;stroke-width:6.19158;stroke-linecap:round;stroke-miterlimit:79.4;stroke-opacity:1;paint-order:stroke fill markers"
+     x="235.5143"
+     y="141.66367"
+     id="text2014"
+     inkscape:label="2014"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       x="241.96387"
+       y="141.66367"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.3945px;font-family:Carelia;-inkscape-font-specification:'Carelia, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e68225;fill-opacity:1;stroke:#ffc28a;stroke-width:6.19158;stroke-opacity:1">2014</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:77.3945px;line-height:0.8;font-family:'IFC RAILROAD';-inkscape-font-specification:'IFC RAILROAD, Normal';text-align:end;text-decoration-color:#000000;letter-spacing:6.44957px;writing-mode:lr-tb;direction:ltr;text-anchor:end;display:inline;fill:#e68225;fill-opacity:1;stroke:#ffc28a;stroke-width:6.19158;stroke-linecap:round;stroke-miterlimit:79.4;stroke-opacity:1;paint-order:stroke fill markers"
+     x="233.89594"
+     y="141.62889"
+     id="text2015"
+     inkscape:label="2015"><tspan
+       sodipodi:role="line"
+       id="tspan1-2"
+       x="240.3455"
+       y="141.62889"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.3945px;font-family:Carelia;-inkscape-font-specification:'Carelia, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e68225;fill-opacity:1;stroke:#ffc28a;stroke-width:6.19158;stroke-opacity:1">2015</tspan></text>
   <g
      id="Pie"
      transform="matrix(0.77176106,0,0,0.77176106,48.465822,26.957257)">
