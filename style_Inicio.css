@@ -13,6 +13,7 @@ body {
 	background-color: #6e1217;
 	background-image: url("imagenes-fuentes/Patron_Azulejo_Fondo.png");
 	background-size: 80px 80px;
+
 }
 
 header {
@@ -31,7 +32,7 @@ header {
 	animation-name: put-opacity;
 	animation-timing-function: ease-in;
 	animation-duration: 0.5s;
-	animation-delay: 3s;	
+	animation-delay: 2s;	
 	animation-fill-mode: forwards;
 }
 
@@ -49,27 +50,24 @@ header h1{
 	border: 5px solid #620505;
 	margin: 0 auto;
 }
-article.Definicion { 
-	color: #620505;
-	position: relative;
-	float:left;
-	left: 5%;
-	top:75px;
-	background-color: #f4deca;
-	margin: 5px auto;
-	padding:10px;
-	padding-top:0;
-	width: 72%;
-	text-align: justify;
-	border: 1px solid #c4a697;
-	border-radius: 4px;
-
-	opacity: 0;
-	animation-name: put-opacity;
-	animation-timing-function: ease-in;
-	animation-duration: 0.5s;
-	animation-delay: 3s;	
-	animation-fill-mode: forwards;
+article.Definicion, article.Historia {
+    color: #620505;
+    background-color: #f4deca;
+    border: 1px solid #c4a697;
+    border-radius: 4px;
+    padding: 10px;
+    padding-top: 0;
+    width: 72%;          /* ancho relativo al contenedor */
+    margin: 75px auto 20px auto; /* top, centrado horizontal, bottom */
+    text-align: justify;
+    position: relative;  /* mantiene animaciones y top si necesitas */
+    
+    opacity: 0;
+    animation-name: put-opacity;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+    animation-delay: 2s;	
+    animation-fill-mode: forwards;
 }
 article.Definicion h2{
 	font-family: Carelia;
@@ -79,44 +77,47 @@ article.Definicion h2{
 	margin:0;
 	
 }
-article.Historia {
-	color: #620505;
-	position: relative;
-	float:left;
-	left: 5%;
-	top:75px;
-	margin: 5px auto;
-	padding:10px;
-	width: 72%;
-	text-align: justify;
-
-	opacity: 0;
-	animation-name: put-opacity;
-	animation-timing-function: ease-in;
-	animation-duration: 0.5s;
-	animation-delay: 3s;	
-	animation-fill-mode: forwards;
-}
 .Circulo2014 {
 	position: relative;
 	float:left;
-	left: 40%;
-	top:45px;
+	left: 53%;
+	top: 135px;
 	margin: 2px auto;
 	padding:5px;
-	transform:scale(2) ;
+	transform:scale(3) ;
 }
-#Interno{
-	fill: hsl(0, 100%, 14%);
+.Circulo2014 #Interno{
+	fill: rgb(83, 0, 0);
 	opacity: 75%;
 }
-#Medio{
-	fill: hsl(0, 100%, 14%);
+.Circulo2014 #Medio{
+	fill: rgb(83, 0, 0);
 	opacity: 50%;
 }
-#Exterior{
-	fill: hsl(0, 100%, 14%);
-	opacity: 0;
+.Circulo2014 #Exterior{
+	fill: rgb(83, 0, 0);
+	opacity: 25%;
+}
+.Circulo2015 {
+	position: relative;
+	float:left;
+	left: 53%;
+	top: 325px;
+	margin: 2px auto;
+	padding:5px;
+	transform:scale(3) ;
+}
+.Circulo2015 #Interno{
+	fill: hwb(32 2% 34%);
+	opacity: 75%;
+}
+.Circulo2015 #Medio{
+	fill: hwb(32 2% 34%);
+	opacity: 50%;
+}
+.Circulo2015 #Exterior{
+	fill: hwb(32 2% 34%);
+	opacity: 25%;
 }
 aside {
 	width: 15%;
@@ -132,12 +133,10 @@ aside {
 	animation-name: put-opacity;
 	animation-timing-function: ease-in;
 	animation-duration: 0.5s;
-	animation-delay: 3s;	
-	animation-fill-mode: forwards;
-}
+	animation-delay: 2s;	
+	animation-fill-mode: forwards;}
 aside nav, aside section{
-	padding:20px 30px 20px 30px;	
-}
+	padding:20px 30px 20px 30px;	}
 footer {
 	position: fixed;
 	font-family:Circe;
@@ -155,21 +154,14 @@ footer {
 	animation-name: put-opacity;
 	animation-timing-function: ease-in;
 	animation-duration: 0.5s;
-	animation-delay: 3s;	
-	animation-fill-mode: forwards;
-}
-sv .Historia{
-	view-timeline-name: --timeline;
-}
+	animation-delay: 2s;	
+	animation-fill-mode: forwards;}
 p{
-	font-family:Circe;
-}
+	font-family:Circe;}
 a{
-	color:#620505;
-}
+	color:#620505;}
 a:hover{
-	color:#e68225;
-}
+	color:#e68225;}
 .contenedor_loader{
 	position: fixed;
 	height: 60px;
@@ -179,13 +171,13 @@ a:hover{
 #EscudoTFUS{
 	animation-name:quit-opacity;
 	animation-timing-function: ease-in;
-	animation-duration: 1s;
-	animation-delay: 2s;	
+	animation-duration: 0.5s;
+	animation-delay: 1s;	
 	animation-fill-mode: forwards;}
 #movible{
 	animation-name: rotate;
 	animation-timing-function: linear;
-	animation-duration: 3s;
+	animation-duration: 1s;
 	animation-delay: 0.5s;
 	transform-box: fill-box;
 	transform-origin: center;
@@ -193,10 +185,10 @@ a:hover{
 
 @keyframes rotate{
 0%{
-	transform: rotate(0deg);
+	transform: rotate(360deg);
 }
 100%{
-	transform: rotate(360deg);
+	transform: rotate(180deg);
 }}
 @keyframes quit-opacity  {
 	0%{

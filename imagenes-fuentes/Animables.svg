@@ -34,9 +34,8 @@
      style="font-size:77.3945px;line-height:0.8;font-family:'IFC RAILROAD';-inkscape-font-specification:'IFC RAILROAD, Normal';text-align:end;text-decoration-color:#000000;letter-spacing:6.44957px;writing-mode:lr-tb;direction:ltr;text-anchor:end;display:inline;fill:#e68225;fill-opacity:1;stroke:#ffc28a;stroke-width:6.19158;stroke-linecap:round;stroke-miterlimit:79.4;stroke-opacity:1;paint-order:stroke fill markers"
      x="233.89594"
      y="141.62889"
-     id="text2015"
-     inkscape:label="2015"><tspan
-       sodipodi:role="line"
+     id="text2015">
+     <tspan
        id="tspan1-2"
        x="240.3455"
        y="141.62889"
