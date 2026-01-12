@@ -26,6 +26,13 @@ header {
 	background-size: 70px 77px;
 	background-repeat: repeat-x;
 	/* CSS3 gradient layer (http://gradients.glrzad.com/)*/
+
+	opacity: 0;
+	animation-name: put-opacity;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+	animation-delay: 3s;	
+	animation-fill-mode: forwards;
 }
 
 header h1{
@@ -56,6 +63,13 @@ article.Definicion {
 	text-align: justify;
 	border: 1px solid #c4a697;
 	border-radius: 4px;
+
+	opacity: 0;
+	animation-name: put-opacity;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+	animation-delay: 3s;	
+	animation-fill-mode: forwards;
 }
 article.Definicion h2{
 	font-family: Carelia;
@@ -63,6 +77,7 @@ article.Definicion h2{
 	text-decoration:underline;
 	padding:0;
 	margin:0;
+	
 }
 article.Historia {
 	color: #620505;
@@ -77,6 +92,13 @@ article.Historia {
 	text-align: justify;
 	border-bottom: 1px solid #c4a697;
 	border-radius: 4px;
+
+	opacity: 0;
+	animation-name: put-opacity;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+	animation-delay: 3s;	
+	animation-fill-mode: forwards;
 }
 .Circulo{
 	position: absolute;
@@ -105,6 +127,13 @@ aside {
 	border-left: 1px solid #c4a697;
 	background-color: #f4deca;
 	border-radius: 4px;
+
+	opacity: 0;
+	animation-name: put-opacity;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+	animation-delay: 3s;	
+	animation-fill-mode: forwards;
 }
 aside nav, aside section{
 	padding:20px 30px 20px 30px;	
@@ -121,6 +150,13 @@ footer {
 	font-size: 12px;
 	text-shadow: 1px 1px 0 #c4a697;
 	border-top: 1px solid #620505;
+
+	opacity: 0;
+	animation-name: put-opacity;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+	animation-delay: 3s;	
+	animation-fill-mode: forwards;
 }
 p{
 	font-family:Circe;
@@ -131,17 +167,45 @@ a{
 a:hover{
 	color:#e68225;
 }
-.loader-container{
-	position: relative;
-	width: 70px;
-	height: 70px;
-	margin: 10px;
+.contenedor_loader{
+	position: fixed;
+	height: 60px;
+	width: 60px;
+	left: 30%;
+	top:10%;}
+#EscudoTFUS{
+	animation-name:quit-opacity;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+	animation-delay: 2s;	
+	animation-fill-mode: forwards;}
+#movible{
+	animation-name: rotate;
+	animation-timing-function: linear;
+	animation-duration: 3s;
+	animation-delay: 0.5s;
+	transform-box: fill-box;
+	transform-origin: center;
+	animation-iteration-count: infinite;}
+
+@keyframes rotate{
+0%{
+	transform: rotate(0deg);
 }
-.loader-container .loader-fixed{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 100%;
-	height: 100%;
-	border: solid 4px black;
-}
+100%{
+	transform: rotate(360deg);
+}}
+@keyframes quit-opacity  {
+	0%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}}
+@keyframes put-opacity  {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}}
