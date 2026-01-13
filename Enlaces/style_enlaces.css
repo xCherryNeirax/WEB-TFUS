@@ -48,7 +48,9 @@ article{
 	position: relative;
 	top:75px;
 	background-color: #f4deca;
-	margin: 5px auto;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
 	padding:10px;
 	padding-top:0;
 	width: 72%;
@@ -56,12 +58,17 @@ article{
 	border: 1px solid #c4a697;
 	border-radius: 4px;
 }
+article.Bottom{
+	margin-bottom: 125px;
+}
 footer {
 	position: fixed;
 	font-family:Circe;
+	bottom: 0px;
+	z-index:1;
 	width:100%;	
 	height:30px;
-	bottom: 1px;
+	margin-top: 5px;
 	background-color: #f4deca;
 	text-align: center;
 	color: #801414;
