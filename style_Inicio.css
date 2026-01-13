@@ -153,44 +153,35 @@ article.Historia section{
 	animation-fill-mode: both;
 }
 
-.Circulo2014, .Circulo2015, .anio2017, .anio2019{
+.Circulo2014, .Circulo2015, .num2017, .num2019{
 	width: 100%;
 	display: flex;
-	justify-content: center;
-	z-index: -1;}
-.Circulo2014 svg, .Circulo2015 svg, .anio2017 svg, .anio2019 svg{
-	width: clamp(300px, 80%, 1200px);
-	height: auto;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;}
+.Circulo2014 svg, .Circulo2015 svg, .num2017 svg, .num2019 svg{
+	width: 1000px;
+	height: 80%;
 	display: block;
-	margin: 0 auto;}
-.Circulo2014 #Interno{
+	margin: 0 auto;
+	object-fit: contain;
+}
+#Interno{
 	fill: #530000;
 	animation: opacity-play 2s infinite ease-in-out;
 	animation-delay: 0.5s;
 }
 	
-.Circulo2014 #Medio{
+#Medio{
 	fill: #530000;
 	animation: opacity-play 2s infinite ease-in-out;
 	animation-delay: 1.5s;
 	}
-.Circulo2014 #Exterior{
+#Exterior{
 	fill: #530000;
 	animation: opacity-play 2s infinite ease-in-out;
 	animation-delay: 2s;
 }
-.Circulo2015 #Interno{
-	fill: hwb(32 2% 34%);
-	animation: opacity-play 2s infinite ease-in-out;
-	animation-delay: 0.5s;}
-.Circulo2015 #Medio{
-	fill: hwb(32 2% 34%);
-	animation: opacity-play 2s infinite ease-in-out;
-	animation-delay: 1.5s;}
-.Circulo2015 #Exterior{
-	fill: hwb(32 2% 34%);
-	animation: opacity-play 2s infinite ease-in-out;
-	animation-delay: 2s;}
 svg{
 	max-width: 100%;
 	height: auto;}

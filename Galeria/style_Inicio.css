@@ -27,7 +27,25 @@ header {
 	background-repeat: repeat-x;
 	/* CSS3 gradient layer (http://gradients.glrzad.com/)*/
 }
-
+img {
+	width: 100%;
+	object-fit:cover;
+}
+.Galeria{
+	width: 90%;
+	max-width: 1100px;
+	margin: 40px auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 10px;
+}
+.Galeria img{
+	height: 100%;
+}
+img:hover{
+	opacity: 0.5;
+	background-color: #620505;
+}
 header h1{
 	padding:5px 0 5px;
 	font-family: Carelia;
@@ -46,15 +64,12 @@ header h1{
 .Descripcion { 
 	color: #620505;
 	position: relative;
-	float:left;
-	left: 5%;
-	top:75px;
 	background-color: #f4deca;
-	margin: 5px auto;
+	margin: 0px auto;
 	padding:10px;
 	padding-top:0;
-	width: 72%;
-	text-align: justify;
+	width: 50%;
+	text-align: center;
 	border: 1px solid #c4a697;
 	border-radius: 4px;
 }
