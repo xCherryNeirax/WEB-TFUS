@@ -8,12 +8,11 @@
 	font-family: 'Circe';
 	src: url("imagenes-fuentes/Circe.otf") format('opentype');}
 body {
-	margin:0;
+	margin:0px;
 	width:auto;
 	background-color: #6e1217;
 	background-image: url("imagenes-fuentes/Patron_Azulejo_Fondo.png");
 	background-size: 80px 80px;
-
 }
 
 header {
@@ -50,11 +49,27 @@ header h1{
 	border: 5px solid #620505;
 	margin: 0 auto;
 }
-article.Definicion, article.Historia {
+article.Definicion{
     color: #620505;
     background-color: #f4deca;
     border: 1px solid #c4a697;
     border-radius: 4px;
+    padding: 10px;
+    padding-top: 0;
+    width: 72%;          /* ancho relativo al contenedor */
+    margin: 75px auto 20px auto; /* top, centrado horizontal, bottom */
+    text-align: justify;
+    position: relative;  /* mantiene animaciones y top si necesitas */
+    
+    opacity: 0;
+    animation-name: put-opacity;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+    animation-delay: 2s;	
+    animation-fill-mode: forwards;
+}
+article.Historia {
+	color: #620505;
     padding: 10px;
     padding-top: 0;
     width: 72%;          /* ancho relativo al contenedor */
@@ -78,13 +93,14 @@ article.Definicion h2{
 	
 }
 .Circulo2014 {
+	width:auto;
 	position: relative;
 	float:left;
 	left: 53%;
 	top: 135px;
 	margin: 2px auto;
 	padding:5px;
-	transform:scale(3) ;
+	transform:scale(3);
 }
 .Circulo2014 #Interno{
 	fill: rgb(83, 0, 0);
@@ -99,13 +115,14 @@ article.Definicion h2{
 	opacity: 25%;
 }
 .Circulo2015 {
+	width:auto;
 	position: relative;
 	float:left;
-	left: 53%;
-	top: 325px;
+	left: 10%;
+	top: 835px;
 	margin: 2px auto;
 	padding:5px;
-	transform:scale(3) ;
+	transform:scale(3);
 }
 .Circulo2015 #Interno{
 	fill: hwb(32 2% 34%);
@@ -128,6 +145,7 @@ aside {
 	border-left: 1px solid #c4a697;
 	background-color: #f4deca;
 	border-radius: 4px;
+	z-index: 10;
 
 	opacity: 0;
 	animation-name: put-opacity;
