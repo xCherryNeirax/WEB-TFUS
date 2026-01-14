@@ -1,0 +1,105 @@
+/*Importaciones*/
+@font-face {
+	font-family: 'Carelia';
+	src: url("../imagenes-fuentes/Carelia.ttf") format('truetype');}
+@font-face {
+	font-family: 'LeckerliOne';
+	src: url("../imagenes-fuentes/LeckerliOne.ttf") format('truetype');}
+@font-face {
+	font-family: 'Circe';
+	src: url("../imagenes-fuentes/Circe.otf") format('opentype');}
+/*Generales*/
+body {
+	margin:0;
+	background-color: #6e1217;
+	background-image: url("../imagenes-fuentes/Patron_Azulejo_Fondo.png");
+	background-size: 80px 80px;
+}
+header {
+	position: fixed;
+	top:0;
+	z-index:1;
+	width: 100%;
+	margin: 0px;
+	background-image: url("../imagenes-fuentes/Patron_Azulejo_Header.png");
+	display:block;
+	background-size: 70px 77px;
+	background-repeat: repeat-x;
+}
+p{font-family:Circe;}
+a{color:#620505;}
+a:hover{color:#e68225;}
+footer {
+	position: fixed;
+	font-family:Circe;
+	width:100%;	
+	height:30px;
+	bottom: 0px;
+	margin-top: 5px;
+	background-color: #f4deca;
+	text-align: center;
+	color: #801414;
+	font-size: 12px;
+	text-shadow: 1px 1px 0 #c4a697;
+	border-top: 1px solid #620505;
+}
+/*Especificos*/
+img{display: block;	margin: 0 auto;}
+header nav{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding:5px 10px;
+	font-family: LeckerliOne;
+	background-color: #f4deca;
+	border-radius: 4px;
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+
+	color: #801414;
+	font-size: 16px;
+	text-shadow: 1px 1px 5px #bc9a9a;
+	border: 5px solid #620505;	
+}
+header h1{
+	margin: 0 0 0 100px;
+	padding:0;
+
+	font-family: Carelia;
+	color: #801414;
+	font-size: 24px;
+	text-decoration:underline;
+
+	white-space: nowrap;
+}
+nav div{margin: 0 0 0 150px;}
+.Arbol {
+	position: relative;
+	margin: 5px auto;
+	width: 72%;
+}
+.Detalle {
+	color: #620505;
+	position: relative;
+	background-color: #f4deca;
+	margin: 10px auto;
+	padding: 15px 15px 15px 80px;
+	width: 72%;
+	text-align: left;
+	border: 1px solid #c4a697;
+	border-radius: 4px;
+}
+.Novatas {
+	color: #620505;
+	position: relative;
+	background-color: #f4deca;
+	margin: 10px auto 50px auto;
+	padding: 15px 15px 15px 80px;
+	width: 72%;
+	text-align: left;
+	border: 1px solid #c4a697;
+	border-radius: 4px;
+}
+
