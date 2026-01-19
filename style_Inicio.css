@@ -38,7 +38,9 @@ header {
 	animation-fill-mode: forwards;}
 p{
 	font-family:Circe;
-	text-shadow: 1px 1px 5px #bc9a9a;}
+	text-shadow: 1px 1px 5px #bc9a9a;
+	text-align: center;
+}
 a{
 	color:#620505;}
 a:hover{
@@ -67,7 +69,7 @@ article.Definicion{
     padding-top: 0;
     width: 70%;          
     margin: 80px 5px 5px 100px;
-    text-align: justify;
+    text-align: center;
     position: relative;
     
     opacity: 0;
@@ -83,7 +85,7 @@ article.Historia {
     padding-top: 0;
     width: 70%;          
     margin: 80px 5px 2.5px 100px;
-    text-align: justify;
+    text-align: center;
     position: relative;  
     
     opacity: 0;
@@ -196,6 +198,7 @@ aside {
 	background-color: #f4deca;
 	border-radius: 4px;
 	z-index: 10;
+	color: #530000;
 
 	opacity: 0;
 	animation-name: put-opacity;
